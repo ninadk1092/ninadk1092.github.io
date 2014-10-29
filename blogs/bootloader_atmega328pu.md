@@ -1,10 +1,11 @@
+## Loading the bootloader to Atmega328pu from Arduino UNO.
 
-## Task:
+#### Task:
 * Use the microcontroller chip(Atmega328) standalone - w/o the Arduino board
 * Burn a bootloader on the Atmega328 so as to be able to program the IC
 * Program the IC after the bootloader has been burned to it
 
-## Issues faced: 
+#### Issues faced: 
 * Programmer is not responding
 	- device signature for Atmega328-pu is 0x1e 0x95 0x14
 	- device signature for Atmega328p is 0x1e 0x95 0x0f
@@ -14,7 +15,7 @@
 
 ***********************************************************
 
-To be researched:
+#### To be researched:
 * What is the bootloader and why is it required.
 * What is the difference between Atmega328p and Atmega328-pu.
 * Why is it recommended to use capacitors between the ground and the crystal terminals?
