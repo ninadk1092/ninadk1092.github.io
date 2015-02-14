@@ -1,27 +1,30 @@
 body {
-	font-family: Helvetica, Geneva, Arial,
-    SunSans-Regular, sans-serif
+	font-family: Roboto
 }
 ul.navbar {
     position: absolute;
     top: 2em;
     left: 1em;
     width: 9em }
-h1,h4,h2 {
-    font-family: Helvetica, Geneva, Arial,
-    SunSans-Regular, sans-serif }
+h1{
+	border-bottom: 2px solid black
+	font-family: Roboto
+	background-color: #D8D8D8
+}
+h4,h2 {
+    font-family: Roboto
+}
 a {
-	color: #808080;
-    font-family: Helvetica, Geneva, Arial,
-    SunSans-Regular, sans-serif
+	color: #0099FF;
+    font-family: Roboto
 }
 a:hover{
 	text-decoration:none;
-	color: gray;
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif
+	color: #000066
+    font-family: Roboto
 }
 p {
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif
+    	color: #282828;
+    	font-family: Roboto;
+ 	
 }
