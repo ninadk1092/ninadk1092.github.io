@@ -1,5 +1,5 @@
 body {
-	font-family: Roboto
+	font-family: 'helvetica Neue'
 }
 ul.navbar {
     position: absolute;
@@ -7,24 +7,36 @@ ul.navbar {
     left: 1em;
     width: 9em }
 h1{
-	border-bottom: 2px solid black
-	font-family: Roboto
-	background-color: #D8D8D8
+	position: relative;
+	top: 30px;
+	left: 40px;
+	border-bottom: 2px solid black;
+	font-family: 'helvetica Neue';
+	font-size: 40px;
+	font-weight: 900;
+}
+h3{
+	position: relative;
+	top: 30px;
+	left: 40px;
+	font-family: 'helvetica Neue';
+	font-size: 20px;
+	font-weight: 300;
 }
 h4,h2 {
-    font-family: Roboto
+    font-family: 'helvetica Neue'
 }
 a {
 	color: #0099FF;
-    font-family: Roboto
+    font-family: 'helvetica Neue';
 }
 a:hover{
 	text-decoration:none;
-	color: #000066
-    font-family: Roboto
+	color: #000066;
+    font-family: 'helvetica Neue';
 }
 p {
     	color: #282828;
-    	font-family: Roboto;
+    	font-family: 'helvetica Neue';
  	
 }
