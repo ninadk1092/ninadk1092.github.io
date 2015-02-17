@@ -13,7 +13,8 @@ h1{
 	border-bottom: 2px solid black;
 	font-family: 'helvetica Neue';
 	font-size: 40px;
-	font-weight: 900;
+	font-weight: 400;
+	color: #000066
 }
 h3{
 	position: relative;
@@ -22,21 +23,28 @@ h3{
 	font-family: 'helvetica Neue';
 	font-size: 20px;
 	font-weight: 300;
+	text-decoration: none;
 }
 h4,h2 {
     font-family: 'helvetica Neue'
 }
+a:link{
+	text-decoration: none;
+}
 a {
-	color: #0099FF;
-    font-family: 'helvetica Neue';
+	color: #0033CC;
+    	font-family: 'helvetica Neue';
 }
 a:hover{
 	text-decoration:none;
 	color: #000066;
-    font-family: 'helvetica Neue';
+	font-family: 'helvetica Neue';
+	font-size: 25px
+	
 }
 p {
     	color: #282828;
     	font-family: 'helvetica Neue';
+	font-size: 15px
  	
 }
