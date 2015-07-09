@@ -5,7 +5,7 @@ ATmega328P, fresh from the factory are set by default to use the internal RC at 
 
 If this is not done, the code will still upload without errors, but the clock will work as if its using a 1 MHz clock, instead of the 8 MHz clock. So technically, this code will work 8 times "slower". In Arduino terms, delay(1000) will actually work like delay(8000). This happens because delay() in arduino is implemented to count from the counter until the desired value is reached. This count will count 8 times slower, because the controller is using a clock source thats 8 times slower than expected. 
 
-** So how to rectify this? **
+**So how to rectify this?**
 
 I used **avrdude** and **USBASP** to do this. Follow this process.
 
